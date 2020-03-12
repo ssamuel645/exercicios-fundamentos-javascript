@@ -1,8 +1,6 @@
 # Exercícios JavaScript
 
-## Exercícios do [curso de Web Moderno da cod3r](https://www.udemy.com/course/curso-web/)
-
----
+#### Exercícios do [curso de Web Moderno da cod3r](https://www.udemy.com/course/curso-web/)
 
 1. Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtração,
     multiplicação e divisão desses valores.
