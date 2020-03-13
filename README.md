@@ -1,6 +1,6 @@
 # Exercícios JavaScript
 
-#### Exercícios do [curso de Web Moderno da cod3r](https://www.udemy.com/course/curso-web/)
+**Exercícios do [curso de Web Moderno da cod3r](https://www.udemy.com/course/curso-web/)**
 
 1. Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtração,
     multiplicação e divisão desses valores.
@@ -86,12 +86,14 @@
     numéricos na ordem que foram inseridos. Por exemplo: calculadora (2, ‘+’, 3). A função efetuará a soma de 2 e
     3. Dica: Os sinais das operações são: ‘+’. ‘-’, ‘\*’ e ‘/’. Crie um caso default para operações inválidas.
 
-17. Um funcionário irá receber um aumento de acordo com o seu plano de
-    trabalho, de acordo com a tabela abaixo:
-    Plano Aumento
-    A 10%
-    B 15%
-    C 20%
+17. Um funcionário irá receber um aumento de acordo com o seu plano de trabalho, de acordo com a tabela abaixo:
+
+    | Plano | Aumento |
+    |:----------:|:-------------:|
+    | A | 10% |
+    | B | 15% |
+    | C | 20% |
+
     Faça uma função que leia o plano de trabalho e o salário atual de um funcionário e calcula e imprime o seu
     novo salário. Use a estrutura switch e faça um caso default que indique que o plano é inválido.
 
@@ -99,13 +101,16 @@
     switch. Crie um case default que escreva ‘Número fora do intervalo.’
 
 19. O cardápio de uma lanchonete é o seguinte:
-    Código Descrição do Produto Preço
-    100 Cachorro Quente R$ 3,00
-200 Hambúrguer Simples R$ 4,00
-    300 Cheeseburguer R$ 5,50
-400 Bauru R$ 7,50
-    500 Refrigerante R$ 3,50
-600 Suco R$ 2,80
+
+    | Código | Descrição do Produto | Preço    |
+    |:------:|:---------------------|:---------|
+    | 100    | Cachorro Quente      | R$ 3,00  |
+    | 200    | Hambúrguer Simples   | R$ 4,00  |
+    | 300    | Cheeseburguer        | R$ 5,50  |
+    | 400    | Bauru                | R$ 7,50  |
+    | 500    | Refrigerante         | R$ 3,50  |
+    | 600    | Suco                 | R$ 2,80  |
+
     Implemente uma função que receba como parâmetros o código do item pedido, a quantidade e calcule o valor
     a ser pago por aquele lanche. Considere que a cada execução somente será calculado um item. Use o
     comando switch. Crie um caso default para produto não existente.
